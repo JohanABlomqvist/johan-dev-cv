@@ -13,5 +13,7 @@
 <h2>Key information for the site</h2>
 <h2>User Stories</h2>
 <h3>Client Goals</h3>
-
+<h3>First Time Visitor Goals</h3>
+<h3>Returning Visitor Goals</h3>
+<h3>Frequent Visitor Goals</h3>
 </body>
