@@ -12,7 +12,16 @@ body {
     color: #323232;
 }
 
+
+
 /* Headings and logo */
+header {
+    float: left;
+    width: 100%; 
+    height: 100px; 
+    outline: solid #323232;
+}
+
 body {
     background-color: #DDD0C8;
 }
@@ -34,6 +43,7 @@ h1 {
 #menu {
     font-size: 100%;
     letter-spacing: 5px;
+    box-sizing: border-box;
 
 }
 
@@ -59,4 +69,23 @@ h1 {
 
 .active {
     border-bottom: 1px solid #323232;
+}
+
+/* Main-page information and pictures */
+
+#center-page {
+    height: 400px;
+}
+
+#left-side-picture {
+width: 400px;
+height: 500px;
+border-style: solid;
+border-color: #ccc;
+border-width: 1px;
+margin-top: 5%;
+margin-left: 5%;
+float: left;
+padding-top: 10px;
+
 }
