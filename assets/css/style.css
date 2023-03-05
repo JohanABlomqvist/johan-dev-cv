@@ -117,7 +117,6 @@ footer {
 #copyright {
     position: relative;
     text-align: center;
-    margin-right: 3%;
     color: #3a3a3a
 }
 
@@ -136,6 +135,7 @@ footer {
 
 .social-networks > li {
     display: inline;
+    padding: 2%;
 
 }
 
