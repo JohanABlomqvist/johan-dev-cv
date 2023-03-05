@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -96,17 +96,41 @@ padding-top: 10px;
     margin-left: 5%;
     margin-top: 5%;
     padding-top: 10px;
+    text-align: center;
 }
 
 
 /* footer */
 
 footer {
-    height: 150px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    outline: solid #323232;
+    background-color: #cc9e83;
+    z-index: 1;
+    padding: 20px;
+    
+
+}
+
+#copyright {
+    position: relative;
+    text-align: center;
+    margin-right: 3%;
+    color: #3a3a3a
+}
+
+#socials {
+    position: relative;
+    text-align: center;
+    color: #3a3a3a
+
 }
 
 .social-networks {
     text-align: center;
+
 
 }
 
@@ -117,9 +141,11 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
     color: #3a3a3a;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-right: 2%;
 }
 
 
