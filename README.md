@@ -36,6 +36,8 @@ Google Fonts - To import the fonts used on the website.
 Font Awesome - For the iconography on the website.
 
 Formsubmit - To redirect emails when people use the contact me form.
+
+https://www.pexels.com - Used for images on the website.
 </h5>
 <h1>Testing</h1>
 <h1>Bugs</h1>
@@ -55,7 +57,7 @@ Accessibility -
 </h3>
 
 <h1>Unfixed bugs</h1>
-
+<p>No bugs that I know of. </p>
 <h1>Deployment</h1>
 
 <h1>Credits</h1>

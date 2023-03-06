@@ -99,6 +99,11 @@ padding-top: 10px;
     text-align: center;
 }
 
+/* Portfolio picture */
+.gallery-image {
+    width: 800px;
+    height: auto;
+}
 
 /* footer */
 
