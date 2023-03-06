@@ -177,7 +177,15 @@ input[type=text], textarea {
   
   /* Add a background color and some padding around the form */
   .container {
-    border-radius: 5px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
     background-color: #DDD0C8;
-    padding: 20px;
   }
+ 
+ .form {
+    margin-top: 5%;
+ }

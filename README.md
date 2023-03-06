@@ -34,6 +34,8 @@ Github - To save and store the files for the website.
 Google Fonts - To import the fonts used on the website.
 
 Font Awesome - For the iconography on the website.
+
+Formsubmit - To redirect emails when people use the contact me form.
 </h5>
 <h1>Testing</h1>
 <h1>Bugs</h1>
