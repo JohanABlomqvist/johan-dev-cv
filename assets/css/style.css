@@ -5,7 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html, body {
+    height: 100%;
+}
 body, header, h1, h2, div, footer {
     font-family: Roboto, sans-serif;
     font-weight: 300;
@@ -31,7 +33,7 @@ header {
 
 body {
     background-color: #DDD0C8;
-    height: 100%;
+    
 }
 
 h1 {
@@ -262,13 +264,12 @@ input[type=submit] {
 
     #left-cover-bg {
         margin-bottom: 120px;
-
+        flex-basis: 950px;
     }
         
     #center-right-sideinfo {
         padding-top: 3%;
-        order: -1;
-        
+        order: -1;   
     }
 }
 
