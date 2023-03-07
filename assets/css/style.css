@@ -12,6 +12,15 @@ body, header, h1, h2, div, footer {
     color: #323232;
 }
 
+img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+article {
+    max-width: 100%;
+    max-height: 100%;
+}
 /* Headings and logo */
 header {
     float: left;
@@ -98,7 +107,7 @@ h1 {
 
 /* footer */
 footer {
-    margin-top: 2%;
+    position: absolute;
     bottom: 0;
     width: 100%;
     outline: solid #323232;
@@ -137,7 +146,6 @@ footer {
 
 /* Contact me form */
 .form {
-    display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -187,7 +195,7 @@ input[type=submit] {
 /* For large to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #logo {
-        font-size: 90%;
+        font-size: 100%;
     }
 
     #menu {
@@ -203,50 +211,92 @@ input[type=submit] {
 /*  For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     #head {
-      display: flex;
-      flex: auto; 
-    }
-
-    #left-cover-bg, #center-right-sideinfo {
-        left: 1;
+      width: 100%;
     }
     
+    #menu {
+        display: flex;
+    }
+
+    #center-div {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     #center-right-sideinfo p, #center-right-sideinfo h2 {
         text-align: center;
-        padding: 0 20px;
+        
        }
+    
+
+    footer {
+       position: absolute;
+       bottom: 0;
+       width: 100%;
+       outline: solid #323232;
+       background-color: #cc9e83;
+       z-index: 1;
+       padding-top: 20px;
     }
+}
 
     /* For small screen sizes 800px and down */
     @media screen and (max-width: 800px) {  
     #head {
-        width: 100%; 
+        width: 800px; 
         height: 120px;
         float: left; 
         outline: solid #3a3a3a;
     }
+
+    #logo {
+        line-height: 20px;
+    }
+
+    hr {
+        width: 100%;
+    }
         
     #menu {
-        font-size: 50%;
+        float: left;
+        font-size: 60%;
+        
     }
 
     #center-div {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     #left-cover-bg {
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        margin-top: 5%;
+        margin-bottom: 120px;
+
     }
         
     #center-right-sideinfo {
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 50%;
-        margin-top: 5%;
+        padding-top: 3%;
+        order: -1;
+        
+    }
+    
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        outline: solid #323232;
+        background-color: #cc9e83;
+        z-index: 1;
+        
     }
 }
 
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 400px) {
+    #menu {
+        float: left;
+        font-size: 48%;
+        
+    }
+}
