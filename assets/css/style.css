@@ -31,6 +31,7 @@ header {
 
 body {
     background-color: #DDD0C8;
+    height: 100%;
 }
 
 h1 {
@@ -227,17 +228,6 @@ input[type=submit] {
         text-align: center;
         
        }
-    
-
-    footer {
-       position: absolute;
-       bottom: 0;
-       width: 100%;
-       outline: solid #323232;
-       background-color: #cc9e83;
-       z-index: 1;
-       padding-top: 20px;
-    }
 }
 
     /* For small screen sizes 800px and down */
@@ -280,23 +270,13 @@ input[type=submit] {
         order: -1;
         
     }
-    
-    footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        outline: solid #323232;
-        background-color: #cc9e83;
-        z-index: 1;
-        
-    }
 }
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 400px) {
     #menu {
         float: left;
-        font-size: 48%;
+        font-size: 50%;
         
     }
 }
