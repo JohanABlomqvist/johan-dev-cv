@@ -208,12 +208,12 @@ input[type=submit]:hover {
     justify-content: center;
     background-color: #DDD0C8;
 }
-
 .containers {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: center;
+
 }
 /* Media queries */
 
