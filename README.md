@@ -121,10 +121,12 @@ To fully test my website I did the following tests using different browsers (goo
 I went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
 
 Links
-1. Tested my social links on index.html, clicking popped out a new tab with the requested site as expected , both on mobile, mozilla, firefox, chrome and Opera.
-2. Tested my social links on contact-me.html, clicking popped out a new tab with the requested site as expected , both on mobile, mozilla, firefox, chrome and Opera.
-3. Tested my social links on portfolio.html, clicking popped out a new tab with the requested site as expected , both on mobile, mozilla, firefox, chrome and Opera.
-4. Tested my social links on success.html, clicking popped out a new tab with the requested site as expected , both on mobile, mozilla, firefox, chrome and Opera.
+1. Tested my social links on index.html, clicking popped out a new tab with the requested site as expected , both on mobile, mozilla, firefox, chrome and opera.
+2. Tested my social links on contact-me.html, clicking popped out a new tab with the requested site as expected , both on mobile, mozilla, firefox, chrome and opera.
+3. Tested my social links on portfolio.html, clicking popped out a new tab with the requested site as expected , both on mobile, mozilla, firefox, chrome and opera.
+4. Tested my social links on success.html, clicking popped out a new tab with the requested site as expected , both on mobile, mozilla, firefox, chrome and opera.
+
+I did the same type of testing on my navigation links.
 
 
 # Technologies Used
