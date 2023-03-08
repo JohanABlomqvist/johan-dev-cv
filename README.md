@@ -25,6 +25,12 @@ All elements in my navigation bar are clickable and resizes accordingly, the mai
 
 ![Home Page](https://github.com/JohanABlomqvist/johan-dev-cv/blob/cae27726fa795bd4eb209c0468c33735c48c727d/assets/images/Landing-page.PNG)
 
+- __Contact me page__ 
+
+- __Portfolio__ 
+
+- __Success form__ 
+
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. 
