@@ -101,35 +101,30 @@ HTML and CSS were used to create this website
 
 ## Frameworks, Media, Libraries & Programs Used
 
-Balsamiq - Used to create wireframes.
+- Balsamiq - Used to create wireframes.
+  
+  - Used this to draw up a basic concept before I got to work on the design, I think the original sketch didnt deviate alot from the final product!
+  
+  ![Balsamiq](https://github.com/JohanABlomqvist/johan-dev-cv/blob/712d3f4aeb3cab8c6aeab4fab5088efd05d219dc/assets/images/Validator_test.PNG)
 
-Git - For version control.
+- Git - For version control.
 
-Github - To save and store the files for the website.
+- Github - To save and store the files for the website.
 
-Google Fonts - To import the fonts used on the website.
+- Google Fonts - To import the fonts used on the website.
 
-Font Awesome - For the iconography on the website.
+- Font Awesome - For the iconography on the website.
 
-Formsubmit - To redirect emails when people use the contact me form.
+- Formsubmit - To redirect emails when people use the contact me form.
 
-https://www.pexels.com - Used for images on the website.
+- [Pexels.com](https://www.pexels.com) - Used for images on the website.
 
-https://pixabay.com - Pictures for the Portfolio website
+- [Pixabay.com](https://pixabay.com) - Pictures for the Portfolio website
 
-Testing Bugs
+### Testing Bugs
 
-Fixed a bug where I forgot to properly link my css style sheet to all my webpages.
-Fixed typo in linking HTML pages to eachother causing 404 errors
-
- Validator testing<
-
-HTML -
-
-
-CSS -
-
-Accessibility -
+- Fixed a bug where I forgot to properly link my css style sheet to all my webpages.
+- Fixed typo in linking HTML pages to eachother causing 404 errors
 
 
 Unfixed bugs
