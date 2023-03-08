@@ -75,11 +75,7 @@ h1 {
     color: inherit;
 }
 
-#menu a:hover {
-    border-bottom: 1px solid #323232;
-}
-
-.active {
+#menu a:hover, .active  {
     border-bottom: 1px solid #323232;
 }
 
@@ -121,16 +117,10 @@ footer {
     bottom: 0;
 }
 
-#copyright {
+#copyright, #socials {
     position: relative;
     text-align: center;
-    color: #3a3a3a
-}
-
-#socials {
-    position: relative;
-    text-align: center;
-    color: #3a3a3a
+    color: #3a3a3a;
 }
 
 .social-networks {
@@ -154,6 +144,7 @@ footer {
     padding-top: 4%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 25%;
 }
 
 input[type=text], textarea {
@@ -166,7 +157,7 @@ input[type=text], textarea {
     margin-bottom: 16px; 
     resize: vertical;
     justify-content: center;
-  }
+}
   
 input[type=submit] {
     background-color: #cc9e83;
@@ -175,26 +166,24 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
   
-  /* When moving the mouse over the submit button, added a lighter orange color */
-  input[type=submit]:hover {
+/* When moving the mouse over the submit button, added a lighter orange color */
+input[type=submit]:hover {
     background-color: #d8aa90;
-  }
+}
   
-  /* Add a background color and some padding around the form */
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 10px;
+/* Add a background color and some padding around the form */
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
     background-color: #DDD0C8;
-  }
+}
  
- .form {
-    margin-top: 5%;
- }
+.form {
+    
+}
 
 /* Media queries */
 
