@@ -14,14 +14,21 @@ All elements in my navigation bar are clickable and resizes accordingly, the mai
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Portfolio and Contact Me page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/JohanABlomqvist/johan-dev-cv/blob/f180f93c5516c027ea6ccfbc1ae1fb13063cdb68/assets/images/Validator_test.PNG)
+![Nav Bar](https://github.com/JohanABlomqvist/johan-dev-cv/blob/cae27726fa795bd4eb209c0468c33735c48c727d/assets/images/Nav-bar.PNG)
+
+- __Landing Page__
+ 
+  - The home page includes a picture and information about me and my journey towards being a Fullstack Developer.
+   - The aim is to be engaging and give them a good sense of what I want to accomplish, both now and in the future.
+
+![Home Page](https://github.com/JohanABlomqvist/johan-dev-cv/blob/cae27726fa795bd4eb209c0468c33735c48c727d/assets/images/Landing-page.PNG)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/JohanABlomqvist/johan-dev-cv/blob/cae27726fa795bd4eb209c0468c33735c48c727d/assets/images/Footer.PNG)
 
 ## User Experience
 The scope I want for user experience is that they a calm as they enter the website, nothing out of the ordinary that makes you wonder how to find anything, it should be really easy to see what you can click and use as you come in for the first time. 
