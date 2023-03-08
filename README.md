@@ -27,9 +27,15 @@ All elements in my navigation bar are clickable and resizes accordingly, the mai
 
 - __Contact me page__ 
 
+![Contact me](https://github.com/JohanABlomqvist/johan-dev-cv/blob/80bcd8ca9e2a63dd2a5d39fa38941054068f9b74/assets/images/contactmepage.PNG)
+
 - __Portfolio__ 
 
+![Portfolio](https://github.com/JohanABlomqvist/johan-dev-cv/blob/80bcd8ca9e2a63dd2a5d39fa38941054068f9b74/assets/images/portfpage.PNG)
+
 - __Success form__ 
+
+![Success form](https://github.com/JohanABlomqvist/johan-dev-cv/blob/80bcd8ca9e2a63dd2a5d39fa38941054068f9b74/assets/images/successpage.PNG)
 
 - __The Footer__ 
 
