@@ -27,7 +27,7 @@ All elements in my navigation bar are clickable and resizes accordingly, the mai
 
 - __Contact me page__ 
 
- - The contact me page has easily navigated form that you can fill otu to get in contact with me
+ - The contact me page has easily navigated form that you can fill out to get in contact with me
  - After completion it redirects you to a success message.
 
 ![Contact me](https://github.com/JohanABlomqvist/johan-dev-cv/blob/80bcd8ca9e2a63dd2a5d39fa38941054068f9b74/assets/images/contactmepage.PNG)
@@ -53,10 +53,31 @@ All elements in my navigation bar are clickable and resizes accordingly, the mai
 
 ![Footer](https://github.com/JohanABlomqvist/johan-dev-cv/blob/cae27726fa795bd4eb209c0468c33735c48c727d/assets/images/Footer.PNG)
 
+- __Coloring__
+
+  - Made to be easy on the eye's and give off a soothing comforting feel.
+
+![Coloring](https://github.com/JohanABlomqvist/johan-dev-cv/blob/cae27726fa795bd4eb209c0468c33735c48c727d/assets/images/Footer.PNG)
+
+## Features Left to Implement
+
+- Frames for the portfolio pictures with added information on the projects in the frame
+- A take me to home link on the success page
+
+
 ## User Experience
 The scope I want for user experience is that they a calm as they enter the website, nothing out of the ordinary that makes you wonder how to find anything, it should be really easy to see what you can click and use as you come in for the first time. 
 
-Initial Discussion
+## Testing & Bugs
+ 
+- 
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 Key information for the site
 
