@@ -27,13 +27,22 @@ All elements in my navigation bar are clickable and resizes accordingly, the mai
 
 - __Contact me page__ 
 
+ - The contact me page has easily navigated form that you can fill otu to get in contact with me
+ - After completion it redirects you to a success message.
+
 ![Contact me](https://github.com/JohanABlomqvist/johan-dev-cv/blob/80bcd8ca9e2a63dd2a5d39fa38941054068f9b74/assets/images/contactmepage.PNG)
 
 - __Portfolio__ 
 
+ - Has a basic layout of pictures for now, but will be pictures with links to my projects that im working on. 
+ - Will also add proper frames and info on each picture with a small description what the project is for and what I am to accomplish with it.
+
 ![Portfolio](https://github.com/JohanABlomqvist/johan-dev-cv/blob/80bcd8ca9e2a63dd2a5d39fa38941054068f9b74/assets/images/portfpage.PNG)
 
 - __Success form__ 
+
+  - Simple layout for now that tell the one that uses the form that I will get in contact as soon as I can.
+  - Will build upon with and add a take me to homepage sticky link in the text in the future.
 
 ![Success form](https://github.com/JohanABlomqvist/johan-dev-cv/blob/80bcd8ca9e2a63dd2a5d39fa38941054068f9b74/assets/images/successpage.PNG)
 
