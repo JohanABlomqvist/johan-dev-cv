@@ -38,6 +38,8 @@ Font Awesome - For the iconography on the website.
 Formsubmit - To redirect emails when people use the contact me form.
 
 https://www.pexels.com - Used for images on the website.
+
+https://pixabay.com - Pictures for the Portfolio website
 </h5>
 <h1>Testing</h1>
 <h1>Bugs</h1>
