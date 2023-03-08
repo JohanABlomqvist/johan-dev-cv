@@ -86,24 +86,52 @@ h1 {
 }
 
 #left-cover-bg {
-   flex: 1;
-   padding-top: 4%;
-   margin-left: 5%;
-   margin-right: 5%;
-   margin-bottom: 1%;
+    flex: 1;
+    padding-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
 }
 
 #center-right-sideinfo {
-  flex: 2;
-  text-align: center;
-  padding-top: 15%;
-  margin-right: 5%;
+    flex: 2;
+    text-align: center;
+    padding-top: 15%;
+    margin-right: 5%;
 }
-/* Portfolio picture */
-.gallery-image {
-   display: block;
-   margin-left: 220px;
+/* Portfolio elements */
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+#portfolio > p {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 4%;
+}
+
+#portfolio > h2 {
+    text-align: center;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.photoport {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#photoport > img { 
+    width: 100%; 
+}
+
+.col {
+    flex: 0 0 calc(33.33% - 30px);  /* flex-basis adjustment for margin */
+    margin: 5px;
+ }
 
 /* footer */
 footer { 
@@ -180,11 +208,13 @@ input[type=submit]:hover {
     justify-content: center;
     background-color: #DDD0C8;
 }
- 
-.form {
-    
-}
 
+.containers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
 /* Media queries */
 
 /* For large to medium screen size from 1200px wide and down */
@@ -240,6 +270,20 @@ input[type=submit]:hover {
         justify-content: center;
         width: 100%;
     }
+
+    .photoport {
+		display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 20%;
+
+	}
+
+    .col {
+        margin-bottom: 20%; 
+        margin-left: 40px;
+    }
 }
 /* For small screen sizes 800px and down */
     @media screen and (max-width: 800px) {  
@@ -259,9 +303,6 @@ input[type=submit]:hover {
         line-height: 20px;
     }
 
-    hr {
-        width: 100%;
-    }
         
     #menu {
         font-size: 60%;  
@@ -283,11 +324,19 @@ input[type=submit]:hover {
     #left-cover-bg {
         margin-bottom: 25%;
     }
+
+    .photo-4 {
+        margin-bottom: 25%; 
+    }
 }
 /* For small screen sizes 400px and down */
 @media screen and (max-width: 400px) {
     #menu {
         float: left;
         font-size: 50%;   
+    }
+
+    .photo-4 {
+        margin-bottom: 30%; 
     }
 }
