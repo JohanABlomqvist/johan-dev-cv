@@ -11,6 +11,12 @@ longterm I want it to be easily accessible for recruiters and other people inter
   * [User stories](#user-stories)
 
 * [Existing Features](#existing-features)
+* [Features Left to Implement](#features-left-to-implement)
+* [Testing and Bugs](#testing-and-bugs)
+* [Validator Testing](#validator-testing)
+* [Technologies Used](#technologies-used)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
 # User Experience (UX)
 
@@ -83,7 +89,7 @@ I want for user experience is that they a calm as they enter the website, nothin
 - A take me to home link on the success page
 - Fleshing out the Landing page AKA Home page, Want more information about what im working on and general info about myself.
 
-# Testing & Bugs
+# Testing and Bugs
 - Fixed a bug where I forgot to properly link my css style sheet to all my webpages.
 - Fixed typo in linking HTML pages to eachother causing 404 errors
 - Fixed a bug where I spent 4-5 hours on getting my footer to stick to the bottom, after alot of troubleshooting and shouting I came to the conclusion that I am blind because I forgot to check the position attribute in css, it was set to absolute, setting it to fixed solved all my issues.
@@ -109,7 +115,17 @@ I want for user experience is that they a calm as they enter the website, nothin
 
   ![Lighthouse check](https://github.com/JohanABlomqvist/johan-dev-cv/blob/712d3f4aeb3cab8c6aeab4fab5088efd05d219dc/assets/images/Validator_test.PNG)
 
-Key information for the site
+## Full testing
+To fully test my website I did the following tests using different browsers (google chrome, mozilla firefox) and devices (Samsung s21pro).
+
+I went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
+
+Links
+1. Tested my social links on index.html, clicking popped out a new tab with the requested site as expected , both on mobile, mozilla, firefox, chrome and Opera.
+2. Tested my social links on contact-me.html, clicking popped out a new tab with the requested site as expected , both on mobile, mozilla, firefox, chrome and Opera.
+3. Tested my social links on portfolio.html, clicking popped out a new tab with the requested site as expected , both on mobile, mozilla, firefox, chrome and Opera.
+4. Tested my social links on success.html, clicking popped out a new tab with the requested site as expected , both on mobile, mozilla, firefox, chrome and Opera.
+
 
 # Technologies Used
 ## Languages Used
@@ -131,6 +147,45 @@ Key information for the site
 - [Pixabay.com](https://pixabay.com) - Pictures for the Portfolio page.
 - [Am I Responsive?](https://ui.dev/amiresponsive) - Used to make the mockup picture for the Readme.
 
-## Deployment
+# Deployment
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
-## Credits
+- Log in (or sign up) to Github.
+- Find the repository for this project, johan-dev-cv.
+- Click on the Settings link.
+- Click on the Pages link in the left hand side navigation bar.
+- In the Source section, choose main from the drop down select branch menu. Select Root - From the drop down select folder menu.
+- Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+## Local Development
+### How to Fork
+To fork the Zero waste design repository:
+
+- Log in (or sign up) to Github.
+- Go to the repository for this project, JohanABlomqvist/johan-dev-cv.
+- Click the Fork button in the top right corner..
+
+### How to Clone
+To clone the Zero waste design repository:
+
+- Log in (or sign up) to GitHub.
+- Go to the repository for this project, MaryAnneLee/zero-waste-design
+- Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+- Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+- Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+
+# Credits
+
+## Code Used
+- Readme help from [Kera Cudmore](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md).
+- [Dev-Bowers](https://dev-bowers.com) for serving as an inspiration for the layout of my site.
+## Content
+All the written content is done by Johan Blomqvist.
+## Media
+- Images are taken from pexels.com and pixabay.com, royalty free. 
+- Font Awesome for the nav icons and social icons.
+## Acknowledgments
+- Lauren-Nicole, my lovely mentor that guided me through this.
+- Kera Cudmore, for all the information about the Readme-file.
+- Stack Overflow for having great examples of both html and css and how to use it.
