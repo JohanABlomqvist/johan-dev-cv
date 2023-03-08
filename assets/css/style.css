@@ -43,13 +43,15 @@ h1 {
 }
 
 #logo {
-    float: left;
+    display: inline-block;
     font-size: 220%;
     margin-left: 30px;
     line-height: 75px;
 }
 
 #menu {
+    float: right;
+    display: inline-block;
     font-size: 100%;
     letter-spacing: 5px;
     box-sizing: border-box;
@@ -203,25 +205,27 @@ input[type=submit] {
     }
 
     #menu {
+        float: right;
         font-size: 80%;
     }
     
-    #left-cover-bg, #center-right-sideinfo {
-        width: 100%;
-        float: left;    
-    }
 }
 /*  For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-    header {
-      width: 120%;
-    }
-    
-    #menu, #logo{
+    .head {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        flex-direction: row;
+        flex-direction: column;
+    }
+
+    #logo {
+        line-height: 20px;
+    }
+
+    #menu { 
+        font-size: 60%;
+        line-height: 20px;
     }
 
     #center-div {
@@ -231,8 +235,13 @@ input[type=submit] {
         flex-wrap: wrap;
     }
 
-    #left-cover-bg, #center-right-sideinfo {
-        margin-left: 12%;
+    #center-right-sideinfo {
+        margin-left: 5%;
+    }
+
+    #left-cover-bg {
+        margin-left: 10%;
+        margin-bottom: 15%;
     }
 
     .container {
@@ -265,7 +274,7 @@ input[type=submit] {
     }
         
     #menu {
-        font-size: 50%;  
+        font-size: 60%;  
          line-height: 20px;
     }
 
@@ -274,12 +283,15 @@ input[type=submit] {
         flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
-        min-height: 100vh
     }
         
     #center-right-sideinfo {
         padding-top: 3%;
         order: -1;   
+    }
+
+    #left-cover-bg {
+        margin-bottom: 25%;
     }
 }
 /* For small screen sizes 400px and down */
