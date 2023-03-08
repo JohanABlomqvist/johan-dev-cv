@@ -69,11 +69,21 @@ All elements in my navigation bar are clickable and resizes accordingly, the mai
 ## User Experience
 The scope I want for user experience is that they a calm as they enter the website, nothing out of the ordinary that makes you wonder how to find anything, it should be really easy to see what you can click and use as you come in for the first time. 
 
-## Testing & Bugs
- 
-- Fixed a bug where I spent 4-5 hours on getting my footer to stick to the bottom, after alot of troubleshooting and shouting I came to the conclusion that I am blind because I forgot to check the position attribute in css, it was set to absolute, setting it to fixed solved all my issues.
+User Goals
+First Time Visitor Goals
+Returning Visitor Goals
+Frequent Visitor Goals
 
-### Validator Testing 
+## Testing & Bugs
+- Fixed a bug where I forgot to properly link my css style sheet to all my webpages.
+- Fixed typo in linking HTML pages to eachother causing 404 errors
+- Fixed a bug where I spent 4-5 hours on getting my footer to stick to the bottom, after alot of troubleshooting and shouting I came to the conclusion that I am blind because I forgot to check the position attribute in css, it was set to absolute, setting it to fixed solved all my issues.
+- Started Testing Flexbox, spent hours figuring out how it works. I thinkI broke my header and body elements atleast 200 time's.
+
+## Unfixed bugs
+- No bugs that I know of.
+
+## Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
@@ -91,14 +101,10 @@ The scope I want for user experience is that they a calm as they enter the websi
 
 Key information for the site
 
-User Stories
-Client Goals
-First Time Visitor Goals
-Returning Visitor Goals
-Frequent Visitor Goals
 Technologies Used
-Languages Used
-HTML and CSS were used to create this website
+## Languages Used
+- HTML and CSS were used to create this website
+- Used Javascript on my copyright date, foun out how to do it by a youtube tutorial, see link below.
 
 ## Frameworks, Media, Libraries & Programs Used
 
@@ -120,7 +126,7 @@ HTML and CSS were used to create this website
 
 - [Pexels.com](https://www.pexels.com) - Used for images on the website.
 
-- [Pixabay.com](https://pixabay.com) - Pictures for the Portfolio website
+- [Pixabay.com](https://pixabay.com) - Pictures for the Portfolio page.
 
 ### Testing Bugs
 
@@ -128,8 +134,9 @@ HTML and CSS were used to create this website
 - Fixed typo in linking HTML pages to eachother causing 404 errors
 
 
-Unfixed bugs
-No bugs that I know of.
-Deployment
+### Unfixed bugs
+- No bugs that I know of.
 
-Credits
+## Deployment
+
+## Credits
