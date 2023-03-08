@@ -32,8 +32,7 @@ header {
 }
 
 body {
-    background-color: #DDD0C8;
-    
+    background-color: #DDD0C8;  
 }
 
 h1 {
@@ -56,7 +55,6 @@ h1 {
     box-sizing: border-box;
     margin-right: 30px;
     line-height: 75px;
-
 }
 
 #menu, #logo {
@@ -94,6 +92,7 @@ h1 {
    padding-top: 4%;
    margin-left: 5%;
    margin-right: 5%;
+   margin-bottom: 1%;
 }
 
 #center-right-sideinfo {
@@ -109,14 +108,15 @@ h1 {
 }
 
 /* footer */
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+footer { 
+    display:flex; 
+    flex-direction:column; 
     outline: solid #323232;
     background-color: #cc9e83;
-    z-index: 1;
     padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 #copyright {
@@ -149,6 +149,7 @@ footer {
 
 /* Contact me form */
 .form {
+    padding-top: 2%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -174,7 +175,7 @@ input[type=submit] {
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a lighter orange color */
+  /* When moving the mouse over the submit button, added a lighter orange color */
   input[type=submit]:hover {
     background-color: #d8aa90;
   }
@@ -207,37 +208,51 @@ input[type=submit] {
     
     #left-cover-bg, #center-right-sideinfo {
         width: 100%;
-        float: left;
-         
+        float: left;    
     }
 }
 /*  For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-    #head {
-      width: 100%;
+    header {
+      width: 120%;
     }
     
-    #menu {
+    #menu, #logo{
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
     }
 
     #center-div {
         display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
-    #center-right-sideinfo p, #center-right-sideinfo h2 {
-        text-align: center;
-        
-       }
-}
+    #left-cover-bg, #center-right-sideinfo {
+        margin-left: 12%;
+    }
 
-    /* For small screen sizes 800px and down */
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+}
+/* For small screen sizes 800px and down */
     @media screen and (max-width: 800px) {  
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     #head {
         width: 800px; 
-        height: 120px;
-        float: left; 
+        height: 120px; 
         outline: solid #3a3a3a;
     }
 
@@ -250,9 +265,8 @@ input[type=submit] {
     }
         
     #menu {
-        float: left;
-        font-size: 60%;
-        
+        font-size: 50%;  
+         line-height: 20px;
     }
 
     #center-div {
@@ -260,11 +274,7 @@ input[type=submit] {
         flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
-    }
-
-    #left-cover-bg {
-        margin-bottom: 120px;
-        flex-basis: 950px;
+        min-height: 100vh
     }
         
     #center-right-sideinfo {
@@ -272,12 +282,10 @@ input[type=submit] {
         order: -1;   
     }
 }
-
-/* For small screen sizes 800px and down */
+/* For small screen sizes 400px and down */
 @media screen and (max-width: 400px) {
     #menu {
         float: left;
-        font-size: 50%;
-        
+        font-size: 50%;   
     }
 }
