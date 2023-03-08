@@ -1,30 +1,46 @@
-<body>
-<header>
-<h1> Johan-Dev-CV </h1>
-</header>
-<h4>The goal of this project is to have a functioning site to build upon for the future while I progress on my journey as I get better at coding.
-longterm I want it to be easily accessible for recruiters and other people interested in what I do, so a easily available and usable website is important.</h4>
-</body>
+# Johan-Dev-CV 
+The goal of this project is to have a functioning site to build upon for the future while I progress on my journey as I get better at coding.
+longterm I want it to be easily accessible for recruiters and other people interested in what I do, so a easily available and usable website is important.
 
-<body>
-<header>
-<h1>User Experience</h1>
+## Features
+
+I built the website to be easy on the eyes and easily available for anyone on any device. The colors used gives a calm approach to a website instead of colors that are really intense and hard on the eyes.
+All elements in my navigation bar are clickable and resizes accordingly, the main landing index give some short info about me and the journey I'm on. The footer that sticks to the bottom of your screen and follows you through out your time on the website.
+
+### Existing Features 
+
+- __Navigation bar__
+
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Portfolio and Contact Me page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+
+![Nav Bar](https://github.com/JohanABlomqvist/johan-dev-cv/blob/f180f93c5516c027ea6ccfbc1ae1fb13063cdb68/assets/images/Validator_test.PNG)
+
+- __The Footer__ 
+
+  - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
+
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+
+## User Experience
 The scope I want for user experience is that they a calm as they enter the website, nothing out of the ordinary that makes you wonder how to find anything, it should be really easy to see what you can click and use as you come in for the first time. 
-</header>
-<h2>Initial Discussion</h2>
-<h2>Key information for the site</h2>
-<h2>User Stories</h2>
-<h3>Client Goals</h3>
-<h3>First Time Visitor Goals</h3>
-<h3>Returning Visitor Goals</h3>
-<h3>Frequent Visitor Goals</h3>
-<h3>Technologies Used</h3>
-<h2>Languages Used</h2>
-<h5>HTML and CSS were used to create this website
 
-<h2>Frameworks, Libraries & Programs Used</h2>
+Initial Discussion
 
-<h5>
+Key information for the site
+
+User Stories
+Client Goals
+First Time Visitor Goals
+Returning Visitor Goals
+Frequent Visitor Goals
+Technologies Used
+Languages Used
+HTML and CSS were used to create this website
+
+## Frameworks, Media, Libraries & Programs Used
+
 Balsamiq - Used to create wireframes.
 
 Git - For version control.
@@ -40,27 +56,24 @@ Formsubmit - To redirect emails when people use the contact me form.
 https://www.pexels.com - Used for images on the website.
 
 https://pixabay.com - Pictures for the Portfolio website
-</h5>
-<h1>Testing</h1>
-<h1>Bugs</h1>
-<ul>
-<li>Fixed a bug where I forgot to properly link my css style sheet to all my webpages.</li>
-<li>Fixed typo in linking HTML pages to eachother causing 404 errors</li>
-</ul>
-<h1> Validator testing</h1>
-<h3>
+
+Testing Bugs
+
+Fixed a bug where I forgot to properly link my css style sheet to all my webpages.
+Fixed typo in linking HTML pages to eachother causing 404 errors
+
+ Validator testing<
+
 HTML -
-</h3>
-<h3>
+
+
 CSS -
-</h3>
-<h3>
+
 Accessibility -
-</h3>
 
-<h1>Unfixed bugs</h1>
-<p>No bugs that I know of. </p>
-<h1>Deployment</h1>
 
-<h1>Credits</h1>
-</body>
+Unfixed bugs
+No bugs that I know of.
+Deployment
+
+Credits
