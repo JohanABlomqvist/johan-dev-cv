@@ -2,6 +2,8 @@
 The goal of this project is to have a functioning site to build upon for the future while I progress on my journey as I get better at coding.
 longterm I want it to be easily accessible for recruiters and other people interested in what I do, so a easily available and usable website is important.
 
+![Responsice Mockup](https://github.com/JohanABlomqvist/johan-dev-cv/blob/178767a103fb3b2f6aaebfc975b307c8f80c707e/assets/images/amiresp.PNG)
+
 ## Features
 
 I built the website to be easy on the eyes and easily available for anyone on any device. The colors used gives a calm approach to a website instead of colors that are really intense and hard on the eyes.
