@@ -4,10 +4,19 @@ longterm I want it to be easily accessible for recruiters and other people inter
 
 ![Responsice Mockup](https://github.com/JohanABlomqvist/johan-dev-cv/blob/178767a103fb3b2f6aaebfc975b307c8f80c707e/assets/images/amiresp.PNG)
 
-## User Experience (UX)
+[View Johan's Dev Journey on Github pages](https://johanablomqvist.github.io/johan-dev-cv/index.html)
+
+# CONTENTS
+* [User Experience](#user-experience-ux)
+  * [User stories](#user-stories)
+
+* [Existing Features](#existing-features)
+
+# User Experience (UX)
 
 Johan's Dev Journey is a website that will build over time, and get expanded upon as Johan gathers knowledge in coding, the goals are simple, make is easy to access and a clear goal for the user has to be set.
 
+I want for user experience is that they a calm as they enter the website, nothing out of the ordinary that makes you wonder how to find anything, it should be really easy to see what you can click and use as you come in for the first time. 
 ## User Stories
 
 ### First time visitor goals
@@ -18,7 +27,7 @@ Johan's Dev Journey is a website that will build over time, and get expanded upo
 - Them looking up on my new projects.
 - Clients or employers getting contact.
 
-## Existing Features 
+# Existing Features 
 
 - __Navigation bar__
 
@@ -68,31 +77,23 @@ Johan's Dev Journey is a website that will build over time, and get expanded upo
 
 ![Coloring](https://github.com/JohanABlomqvist/johan-dev-cv/blob/6fae0e57436933ffb205419feccc2f1458a46c38/assets/images/coloringwebsite.PNG)
 
-## Features Left to Implement
+# Features Left to Implement
 
 - Frames for the portfolio pictures with added information on the projects in the frame
 - A take me to home link on the success page
 - Fleshing out the Landing page AKA Home page, Want more information about what im working on and general info about myself.
 
-
-## User Experience
-The scope I want for user experience is that they a calm as they enter the website, nothing out of the ordinary that makes you wonder how to find anything, it should be really easy to see what you can click and use as you come in for the first time. 
-
-User Goals
-First Time Visitor Goals
-Returning Visitor Goals
-Frequent Visitor Goals
-
-## Testing & Bugs
+# Testing & Bugs
 - Fixed a bug where I forgot to properly link my css style sheet to all my webpages.
 - Fixed typo in linking HTML pages to eachother causing 404 errors
 - Fixed a bug where I spent 4-5 hours on getting my footer to stick to the bottom, after alot of troubleshooting and shouting I came to the conclusion that I am blind because I forgot to check the position attribute in css, it was set to absolute, setting it to fixed solved all my issues.
-- Started Testing Flexbox, spent hours figuring out how it works. I thinkI broke my header and body elements atleast 200 time's.
+- Started testing using Flexbox, spent hours figuring out how it works. I think I broke my header and body elements atleast 200 time's.
+- With all this said, I ran into minor issues all through this project in both HTML and CSS, styling, and realigning things back and forth. 
 
 ## Unfixed bugs
 - No bugs that I know of.
 
-## Validator Testing 
+# Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
@@ -110,7 +111,7 @@ Frequent Visitor Goals
 
 Key information for the site
 
-Technologies Used
+# Technologies Used
 ## Languages Used
 - HTML and CSS were used to create this website
 - Used Javascript on my copyright date, found out how to do it by a youtube tutorial, see link below.
@@ -118,34 +119,17 @@ Technologies Used
 
 ## Frameworks, Media, Libraries & Programs Used
 
-- Balsamiq - Used to create wireframes.
-  
-  - Used this to draw up a basic concept before I got to work on the design, I think the original sketch didnt deviate alot from the final product!
-  
+- Balsamiq - Used to create wireframes.  
+  - Used this to draw up a basic concept before I got to work on the design, I think the original sketch didnt deviate alot from the final product!  
   ![Balsamiq](https://github.com/JohanABlomqvist/johan-dev-cv/blob/ef60a3f80162da6f6854bb0ec3b8a2ff1924229c/assets/images/balsamic.PNG)
-
 - Git - For version control.
-
 - Github - To save and store the files for the website.
-
 - Google Fonts - To import the fonts used on the website. Roboto (300) and Lato (300) Alltho I mainly used Roboto for the whole page.
-
 - Font Awesome - For the iconography on the website. (Header navigation links and Footer icons)
-
-- Formsubmit - To redirect emails when people use the contact me form.
-
+- [Formsubmit](https://formsubmit.co) - To redirect emails when people use the contact me form.
 - [Pexels.com](https://www.pexels.com) - Used for images on the website.
-
 - [Pixabay.com](https://pixabay.com) - Pictures for the Portfolio page.
-
-### Testing Bugs
-
-- Fixed a bug where I forgot to properly link my css style sheet to all my webpages.
-- Fixed typo in linking HTML pages to eachother causing 404 errors
-
-
-### Unfixed bugs
-- No bugs that I know of.
+- [Am I Responsive?](https://ui.dev/amiresponsive) - Used to make the mockup picture for the Readme.
 
 ## Deployment
 
