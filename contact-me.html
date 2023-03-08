@@ -11,57 +11,53 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <title>Johan's Dev Journey</title>
     </head>
-    <main>
-        <body>
-            <!--  Main header elements  -->
-            <header>
-            <!-- Name of the page --> 
-            <a href="index.html">
-            <h1 id="logo">Johan's Dev Journey!</h1>
-            </a>
-            <!-- Nav bar --> 
-            <nav id="menu">
-                <ul>
-                    <li>
-                        <a href="contact-me.html" class="active">Contact me<i class="fas fa-id-card"></i></a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio<i class="fas fa-book-open"></i></a>
-                    </li>
-                    <li>
-                        <a href="index.html">Home<i class="fas fa-home"></i></a>
-                    </li>
-                </ul>
-            </nav>
-            </header>
-            <!-- Contact me form -->
-            <div class="container">
-                <div class="formsize">
-                    <form class="form" action="https://formsubmit.co/25c22560a319f2057fe2f32e36b4b1d1" method="POST">
-                    <!-- Honeypot -->
-                    <input type="text" name="_honey" style="display: none;">
-                    <!-- Disable Captcha & Success page -->
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="https://johanablomqvist.github.io/johan-dev-cv/success.html">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-                    <label for="mail"><b>Email</b></label>
-                    <input type="text" placeholder="Enter Email" id="mail" name="email" required> 
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
-                    <input type="submit" value="Submit">
-                    </form>
-                </div>
+    <body>
+        <!--  Main header elements  -->
+        <header>
+        <!-- Name of the page --> 
+        <a href="index.html">
+        <h1 id="logo">Johan's Dev Journey!</h1>
+        </a>
+        <!-- Nav bar --> 
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="contact-me.html" class="active">Contact me<i class="fas fa-id-card"></i></a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio<i class="fas fa-book-open"></i></a>
+                </li>
+                <li>
+                    <a href="index.html">Home<i class="fas fa-home"></i></a>
+                   </li>
+            </ul>
+        </nav>
+        </header>
+        <!-- Contact me form -->
+        <div class="container">
+            <div class="formsize">
+                <form class="form" action="https://formsubmit.co/25c22560a319f2057fe2f32e36b4b1d1" method="POST">
+                <!-- Honeypot -->
+                <input type="text" name="_honey" style="display: none;">
+                <!-- Disable Captcha & Success page -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://johanablomqvist.github.io/johan-dev-cv/success.html">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                <label for="mail"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" id="mail" name="email" required> 
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+                <input type="submit" value="Submit">
+                </form>
             </div>
-        </body>    
-    </main>
+        </div>    
         <!-- copyright and socials -->
         <footer>
             <div id="copyright">
-            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> Johan's Dev Journey</p>
-            
+                <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> Johan's Dev Journey</p>
             </div>
             <ul class="social-networks">
                 <li>
@@ -77,4 +73,5 @@
         </footer>
         <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/3e3a132ec3.js" crossorigin="anonymous"></script>  
+    </body>
 </html>
