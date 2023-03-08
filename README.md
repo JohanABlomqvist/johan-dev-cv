@@ -63,6 +63,7 @@ All elements in my navigation bar are clickable and resizes accordingly, the mai
 
 - Frames for the portfolio pictures with added information on the projects in the frame
 - A take me to home link on the success page
+- Fleshing out the Landing page AKA Home page, Want more information about what im working on and general info about myself.
 
 
 ## User Experience
@@ -70,7 +71,7 @@ The scope I want for user experience is that they a calm as they enter the websi
 
 ## Testing & Bugs
  
-- 
+- Fixed a bug where I spent 4-5 hours on getting my footer to stick to the bottom, after alot of troubleshooting and shouting I came to the conclusion that I am blind because I forgot to check the position attribute in css, it was set to absolute, setting it to fixed solved all my issues.
 
 ### Validator Testing 
 
@@ -105,15 +106,15 @@ HTML and CSS were used to create this website
   
   - Used this to draw up a basic concept before I got to work on the design, I think the original sketch didnt deviate alot from the final product!
   
-  ![Balsamiq](https://github.com/JohanABlomqvist/johan-dev-cv/blob/712d3f4aeb3cab8c6aeab4fab5088efd05d219dc/assets/images/Validator_test.PNG)
+  ![Balsamiq](https://github.com/JohanABlomqvist/johan-dev-cv/blob/ef60a3f80162da6f6854bb0ec3b8a2ff1924229c/assets/images/balsamic.PNG)
 
 - Git - For version control.
 
 - Github - To save and store the files for the website.
 
-- Google Fonts - To import the fonts used on the website.
+- Google Fonts - To import the fonts used on the website. Roboto (300) and Lato (300) Alltho I mainly used Roboto for the whole page.
 
-- Font Awesome - For the iconography on the website.
+- Font Awesome - For the iconography on the website. (Header navigation links and Footer icons)
 
 - Formsubmit - To redirect emails when people use the contact me form.
 
