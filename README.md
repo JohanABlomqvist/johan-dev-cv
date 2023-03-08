@@ -57,7 +57,7 @@ All elements in my navigation bar are clickable and resizes accordingly, the mai
 
   - Made to be easy on the eye's and give off a soothing comforting feel.
 
-![Coloring](https://github.com/JohanABlomqvist/johan-dev-cv/blob/cae27726fa795bd4eb209c0468c33735c48c727d/assets/images/Footer.PNG)
+![Coloring](https://github.com/JohanABlomqvist/johan-dev-cv/blob/6fae0e57436933ffb205419feccc2f1458a46c38/assets/images/coloringwebsite.PNG)
 
 ## Features Left to Implement
 
