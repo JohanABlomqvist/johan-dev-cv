@@ -83,6 +83,11 @@ The scope I want for user experience is that they a calm as they enter the websi
   
   ![CSS Check](https://github.com/JohanABlomqvist/johan-dev-cv/blob/240e631298527273e0ab07ee05196ee97743086b/assets/images/csspass.PNG)
 
+- Lighthouse
+  - High percentages when running lighthouse, so I'm really happy about that.
+
+  ![Lighthouse check](https://github.com/JohanABlomqvist/johan-dev-cv/blob/712d3f4aeb3cab8c6aeab4fab5088efd05d219dc/assets/images/Validator_test.PNG)
+
 Key information for the site
 
 User Stories
