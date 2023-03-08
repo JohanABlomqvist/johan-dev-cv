@@ -4,50 +4,21 @@ longterm I want it to be easily accessible for recruiters and other people inter
 
 ![Responsice Mockup](https://github.com/JohanABlomqvist/johan-dev-cv/blob/178767a103fb3b2f6aaebfc975b307c8f80c707e/assets/images/amiresp.PNG)
 
-## CONTENTS
-
-* [User Experience](#user-experience-ux)
-  * [User Stories](#user-stories)
-
-* [Design](#design)
-  * [Colour Scheme](#colour-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
-
-* [Features](#features)
-  * [General Features on Each Page](#general-features-on-each-page)
-  * [Future Implementations](#future-implementations)
-  * [Accessibility](#accessibility)
-
-* [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
-
-* [Testing](#testing)
-
-* [Credits](#credits)
-  * [Code Used](#code-used)
-  * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
-
 ## User Experience (UX)
-The goal of this project is to have a functioning site to build upon for the future while I progress on my journey as I get better at coding.
-longterm I want it to be easily accessible for recruiters and other people interested in what I do, so a easily available and usable website is important.
 
-### Features
+Johan's Dev Journey is a website that will build over time, and get expanded upon as Johan gathers knowledge in coding, the goals are simple, make is easy to access and a clear goal for the user has to be set.
 
-I built the website to be easy on the eyes and easily available for anyone on any device. The colors used gives a calm approach to a website instead of colors that are really intense and hard on the eyes.
-All elements in my navigation bar are clickable and resizes accordingly, the main landing index give some short info about me and the journey I'm on. The footer that sticks to the bottom of your screen and follows you through out your time on the website.
+## User Stories
 
-### Existing Features 
+### First time visitor goals
+- Know more about me as a developer.
+- Seeing what I am capable of. 
+
+### Returning visitor goals
+- Them looking up on my new projects.
+- Clients or employers getting contact.
+
+## Existing Features 
 
 - __Navigation bar__
 
