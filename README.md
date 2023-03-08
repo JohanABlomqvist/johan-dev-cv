@@ -77,11 +77,11 @@ The scope I want for user experience is that they a calm as they enter the websi
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
   
-  ![HTML Check](https://github.com/JohanABlomqvist/johan-dev-cv/blob/6fae0e57436933ffb205419feccc2f1458a46c38/assets/images/coloringwebsite.PNG)
+  ![HTML Check](https://github.com/JohanABlomqvist/johan-dev-cv/blob/240e631298527273e0ab07ee05196ee97743086b/assets/images/htmlcheck.PNG)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
   
-  ![CSS Check](https://github.com/JohanABlomqvist/johan-dev-cv/blob/6fae0e57436933ffb205419feccc2f1458a46c38/assets/images/coloringwebsite.PNG)
+  ![CSS Check](https://github.com/JohanABlomqvist/johan-dev-cv/blob/240e631298527273e0ab07ee05196ee97743086b/assets/images/csspass.PNG)
 
 Key information for the site
 
