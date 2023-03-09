@@ -131,6 +131,7 @@ h1 {
 .col {
     flex: 0 0 calc(33.33% - 30px);  /* flex-basis adjustment for margin */
     margin: 5px;
+    margin-bottom: 100px;
  }
 
 /* footer */
@@ -216,6 +217,14 @@ input[type=submit]:hover {
 
 }
 /* Media queries */
+
+/* For large to medium screen size from 1450px wide and down */
+@media screen and (max-width: 1450px) {
+    .photo-4 {
+        margin-bottom: 25%; 
+    }
+}
+
 
 /* For large to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
