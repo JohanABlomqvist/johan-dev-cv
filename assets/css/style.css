@@ -331,6 +331,10 @@ input[type=submit]:hover {
 }
 /* For small screen sizes 400px and down */
 @media screen and (max-width: 400px) {
+    #logo {
+        line-height: 5px;
+    }
+    
     #menu {
         float: left;
         font-size: 50%;   
@@ -339,4 +343,13 @@ input[type=submit]:hover {
     .photo-4 {
         margin-bottom: 30%; 
     }
+}    
+
+/* For small screen sizes 370px and down */
+@media screen and (max-width: 370px) {
+    #menu {
+        float: left;
+        font-size: 60%;   
+    }
+    
 }
